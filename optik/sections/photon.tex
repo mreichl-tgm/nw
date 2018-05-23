@@ -1,8 +1,6 @@
 %!TEX root=main.tex
 \section{Photon}
-Das Photon ist ein Elementarteilchen und Übermittler der elektromagnetischen Wechselwirkung. Nach Max Planck bilden Photonen die Energiepakete elektromagnetischer Strahlung, weshalb sie auch Lichtquanten genannt werden. 
-
-Das plancksche Wirkungsquantum ($h$) ist das Verhältnis von Energie ($E$) und Frequenz ($f$) eines Photons.
+Das Photon ist ein Elementarteilchen und Übermittler der elektromagnetischen Wechselwirkung. Nach Max Planck bilden Photonen die Energiepakete elektromagnetischer Strahlung, weshalb sie auch Lichtquanten genannt werden. Das plancksche Wirkungsquantum ($h$) ist das Verhältnis von Energie ($E$) und Frequenz ($f$) eines Photons.
 $$E=hf$$
 \begin{vardef}
 	\addvardef{$E$}{Energie}
@@ -14,15 +12,29 @@ Der Relativitätstheorie nach wirkt sich jede Änderung ($\Delta$) der Energie (
 $${\Delta}m = \frac{{\Delta}E}{c^2} = \frac{hf}{c^2}$$
 \begin{vardef}
 	\addvardef{${\Delta}m$}{Masseänderung}
+	\addvardef{${\Delta}E$}{Energieänderung}
 	\addvardef{$c$}{Lichtgeschwindigkeit}
 \end{vardef}
 
-Diese Masse \enquote{bewirkt, dass Photonen von Gravitationsfeldern abgelenkt werden und dabei Energie verlieren oder gewinnen können.} \cite{ulm:photon} Über diese kann zudem der Impuls eines Photons berechnet werden.
-$$$$
+Diese Masse \enquote{bewirkt, dass Photonen von Gravitationsfeldern abgelenkt werden und dabei Energie verlieren oder gewinnen können.} \cite{ulm:photon}
 
-Eine eigene Masse hat ein Photon nicht, da es sich stets mit Lichtgeschwindigkeit fortbewegt. Diese Eigenschaft kann über den Impuls ($\vec{p}$) bewiesen werden.
+Eine eigene Masse hat ein Photon nicht, da es sich stets mit Lichtgeschwindigkeit fortbewegt. Über den Impuls kann diese Eigenschaft mathematisch bewiesen werden.
 $$m = \frac{\vec{p}}{\vec{v}}\sqrt{1-\frac{v^2}{c^2}} = 0$$
+\begin{vardef}
+	\addvardef{$m$}{Masse}
+	\addvardef{$\vec{p}$}{Impulsvektor}
+	\addvardef{$\vec{v}$}{Geschwindigkeitsvektor}
+	\addvardef{$v$}{Geschwindigkeit}
+\end{vardef}
 
-$$p=mc=\frac{hf}{c}=\frac{h}{\lambda}$$
+Umgekehrt lässt sich diese Definition nicht zur Berechnung des Impulses für Objekte ohne Masse anwenden, weshalb dafür auf die Energie-Impuls-Beziehung zurückgegriffen wird.
+% TODO: Erklärung zu Energie-Impuls-Beziehung
+$$E^2-p^2c^2 = m^2c^4 \quad E=pc$$
+$$p=\frac{E}{c}=\frac{hf}{c}=\frac{h}{\lambda}$$
+\begin{vardef}
+	\addvardef{$p$}{Impuls}
+	\addvardef{$\lambda$}{Wellenlänge}
+\end{vardef}
+% TODO: Herleitung lambda
 
-% \subsection{Photoeffekt}\label{subsec:photoeffekt}
+% TODO: \subsection{Photoeffekt}\label{subsec:photoeffekt}
