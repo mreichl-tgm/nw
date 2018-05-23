@@ -1,0 +1,62 @@
+\section{Auditive \& visuelle Messgrößen}
+\subsection{Schall}
+\enquote{Mechanische Longitudinalwellen werden als Schall bezeichnet. In einem Frequenzbereich von 16 Hz bis 20 kHz sind sie für das menschliche Ohr wahrnehmbar. Liegen die Frequenzen unter diesem Bereich, so bezeichnet man diese Wellen als Infraschall, darüber als Ultraschall.} \cite[S. 145]{physik1}
+
+Die Messgrößen der Welle und unsere Wahrnehmung des Schalls hängen stark zusammen. Beispiele sind etwa Amplitude und Lautstärke, Frequenz und Tonhöhe, sowie Form und Klangfarbe.
+
+In der Akustik werden konkret meist folgende Schalleindrücke unterschieden:
+
+\begin{tabularx}{\textwidth}{l l}
+	\textbf{Begriff} & \textbf{Eigenschaften}\\
+	\textbf{Ton} & harmonische Welle\\
+	\textbf{Klang} & Überlagerung von Sinuswellen\\
+	\textbf{Geräusch} & Gemisch nicht-periodischer\footnote{Amplitude, Frequenz und Form variieren nach Zeit} Wellen\\
+	\textbf{Knall} & kurz sehr hohe, dann niedrige Amplitude
+\end{tabularx}
+
+\subsubsection{Schallgeschwindigkeit}
+Die Grundformel für die Schallgeschwindigkeit entspricht jener der Ausbreitungsgeschwindigkeit mechanischer Wellen.
+$$c = \sqrt{\frac{\sigma}{\rho}}$$
+\begin{vardef}
+	\addvardef{$c$}{Schallgeschwindigkeit}
+	\addvardef{$\sigma$}{Maß für die Kopplung}
+	\addvardef{$\rho$}{Maß für die Trägheit}
+\end{vardef}
+
+In Festkörpern entspricht $\sigma$ dem \textit{\gls{emodul}} und in Flüssigkeiten dem \textit{\gls{kmodul}}. In beiden Fällen wird $\rho$ durch die Dichte des Stoffs ersetzt.
+
+Für Gase gilt:
+$$c = \sqrt{\kappa R_s T}$$
+\begin{vardef}
+	\addvardef{$\kappa$}{\gls{iexponent}}
+	\addvardef{$R_s$}{Gaskonstante}
+	\addvardef{$T$}{absolute Temperatur}
+\end{vardef}
+
+In sehr guter Übereinstimmung mit dem in trockener Luft gemessenen Wert, kann zu diesem ein $c$ von $\si{340~\metre\per\second}$ berechnet werden. In Flüssigkeiten liegen die Geschwindigkeiten meist über denen der Luft.
+
+\subsubsection{Schallfeldgrößen}
+Ein von Schallwellen durchsetzter Raum wird als Schallfeld bezeichnet. In diesem sind außer Frequenz, Amplitude und Ausbreitungsgeschwindigkeit noch weitere Größen von Interesse.
+
+\paragraph{Schallschnelle $u$}
+Bewegungsgeschwindigkeit der Teilchen im Schallfeld. Nicht zu verwechseln mit der Schallgeschwindigkeit.
+
+\paragraph{Effektiver Schalldruck}
+Mittelwert (Effektivwert) der Amplituden jener Druckschwankungen, welche durch Schallwellen erzeugt werden.
+$$p_\text{eff} = \frac{\rho c u}{\sqrt{2}}$$
+\begin{vardef}
+	\addvardef{$p_\text{eff}$}{Effektiver Schalldruck}
+\end{vardef}
+
+\paragraph{Intensität}
+Energie die pro Sekunde eine Fläche von $1 m^2$ durchdringt.
+$$I = \frac{P}{A} = \frac{p_\text{eff}^2}{\rho c}$$
+\begin{vardef}
+	\addvardef{$P$}{Schallleistung}
+	\addvardef{$A$}{Fläche}
+\end{vardef}
+
+% TODO: \subsubsection{Schalldruckpegel}
+
+% TODO: \section{Visuelle Daten}
+% TODO: Lux / Lumen
